@@ -23,6 +23,7 @@ body {
 .menu-list-items a:hover {
     font-weight: bold;
     font-size: 20px;
+ 
 }
 
 .menu-list-right {
@@ -31,16 +32,36 @@ body {
     right:0;
 }
 
+.menu-list-right:hover {
+    position: absolute;
+    top: 5px;
+    right: 0;
+}
+
 .menu-list-left-bottom {
     position: absolute;
     bottom:0;
     left:0;
 }
 
+.menu-list-left-bottom:hover {
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+}
 
-h1 {
+
+.home-h1 {
     text-align: center;
     font-size: 70px;
+}
+
+.recipe-h1 {
+    font-size: 32px;
+}
+
+.home-h1:hover{
+    color:rgb(169, 55, 74);
 }
 
 .recipes{
@@ -60,15 +81,14 @@ h1 {
 }
 
 .recipe-card:hover {
-    background-color: white;;
-
+    background-color: white;
 }
 
 a {
     text-decoration: none;
     color: black;
-
 }
+
 
 .subheading {
     text-align: center;
